@@ -1,0 +1,76 @@
+
+body{background-color: rgb(205, 193, 247);}
+
+/*Formatações para formulários*/
+fieldset{padding:1e;
+         border:1px solid black;
+         background:rgb(183, 123, 243);}
+label{display: block;
+       cursor:pointer; /*transforma a seta em mãozinha*/}
+input{width:20em}           
+          
+
+
+.catalogo {width:none;   /*define a largura*/
+           height:450px; /*define a altura */
+           margin:0;
+           padding:0;
+           background-color: rgb(39, 1, 47);
+           border:1px solid #01010e;}
+
+.formatacão{text-align: center, }
+.principio{background-color: rgb(183, 123, 243);}
+.inicio{text-align:center;
+        background-color:rgb(39, 1, 47);
+        width:100%;
+        height:400px;
+        min-width:720px;   /*Define um tamanho limite para a redução da tela*/
+        margin:0px;
+        border: 1px solid #01010e}
+
+
+#home #navagação1 .home a ,#Produtos .Produtos, #Ofertas .Ofertas {text-decoration:none;background-position:right bottom;}
+.menu{margin:8px};
+
+/* barra de navegação horizontal*/
+ul {margin:auto;
+      padding:0px;      
+      list-style:none;
+      width:720px;
+      background:color rgb(228, 209, 236);}
+
+ ul#navegação1 a {display:block; 
+                  padding:0 2em;
+                  line-height: 2em; 
+                  text-decoration:none;
+                  color:rgb(244, 240, 247) ;
+                  border:1px solid black;
+                  height: auto;
+                  width: 100px;}   
+
+            
+ul li {float:left; /*deixa um elemento ao lado do outro/*/
+      background-color: rgb(137, 129, 158);
+      list-style:none; /*tira os topicos de lista*/
+}
+
+/*ul{ list-style-type: none;margin: 0;padding: 0;} 
+li{border: 1px solid black;padding: 10px;
+}*/
+
+
+/*Barra de navegação lateral*/
+/*ul a {width: 199px;
+      height: 40px;
+      display: block;
+      color: rgb(38, 13, 201);
+      text-decoration: none;              //*movimenta o texto
+      text-indent: 50px;
+      line-height: 40px;
+      background:url(Menusite.png)no-repeat left bottom;}   
+
+a:hover {background-position:right bottom;}*/
+
+
+
+  
