@@ -1,2 +1,3 @@
-# R2-variedades
- Loja virtuall
+# R2-variedades e eletrônicos
+ Loja virtual
+ 
