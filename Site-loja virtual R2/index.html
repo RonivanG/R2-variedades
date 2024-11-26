@@ -3,32 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href=estilo.css>
-    <title>R2 vairedades</title>
+    <link rel="stylesheet" type='text/css' href="estilo.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script> 
+
    <header> <!--TAG PARA CABEÇALHOS--> 
-     <div class="Nome">
+     <div id="Nome" style="clear:both;">
        <h1>R2 VARIEDADES E ELETRÔNICOS</h1>
      </div>
      <div>
       <img src="imagens/logotipo1.png" alt="R2 Variedades e eletrônicos" width="140" height="155">
      </div>
+
      <form>
-        <label for="busca">Buscar Produto!</label>
+        <label  class="btn btn-secondary" type="button">Buscar Produto <!--bootstrap:criação de botão com cor de fundo cinza-->
+        </label>
         <input type="search" id="BUSCAR PRODUTO">
      </form>
-    <span></span>    
+   
    </header>
-   <nav>   <!--TAG PARA NAVEGAÇÃO MENUS-->
-   <ul>
-       <li><a href="">HOME</a></li>
-       <li><a href="">SOBRE</li>
-       <li><a href="">CONTATO</a></li>
-   </ul>
-</nav>
+   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">   <!--TAG PARA NAVEGAÇÃO MENUS-->
+    <!--MENU HAMBURGUER-->
+    <button class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+     <div>
+      <ul class="navbar-nav ml-auto"><!--bootstrap:alinhamanto horizontal e icones de menu a esquerda-->
+        <li class="nav-item"><a href="" class="nav-link">HOME</a></li><!--bootstrap:formatação de iconesde menu-->
+        <li class="nav-item"><a href="" class="nav-link">PRODUTOS</a></li>
+        <li class="nav-item"><a href="" class="nav-link">CARRINHO</a></li>
+        <li class="nav-item"><a href="" class="nav-link">CONTATO</a></li>
+       </ul>
+      </div>
+    </nav>
     
-
 </body>
-<footer><p>&copy;2024 - R2 variedades e eletrônicos </p></footer>
+<footer><p class="text-center">&copy;2024 - R2 variedades e eletrônicos </p></footer>
 </html>
