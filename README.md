@@ -1,3 +1,3 @@
 # R2-variedades e eletrônicos
- Loja virtual
+ Projeto desenvolvido para pequena loja de itens eletrônicos e variedades domesticas 
  
