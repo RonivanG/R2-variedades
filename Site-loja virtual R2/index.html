@@ -29,19 +29,41 @@
    </header>
    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">   <!--TAG PARA NAVEGAÇÃO MENUS-->
     <!--MENU HAMBURGUER-->
-    <button class="navbar-toggler">
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target"><!--data-toggler:define uma tecla para ser clicada ,data-target:define o conteúdo a ser aberto no menu -->
       <span class="navbar-toggler-icon"></span>
     </button>
-     <div>
+     <div class="collapse navbar-collapse" id="nav-target">
       <ul class="navbar-nav ml-auto"><!--bootstrap:alinhamanto horizontal e icones de menu a esquerda-->
         <li class="nav-item"><a href="" class="nav-link">HOME</a></li><!--bootstrap:formatação de iconesde menu-->
-        <li class="nav-item"><a href="" class="nav-link">PRODUTOS</a></li>
+        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toglle="dropdown">PRODUTOS</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item active" href="#">Caixa de som</a>
+            <a class="dropdown-item active" href="#">Capinhas de celular</a>
+            <a class="dropdown-item active" href="#">Fones de ouvido</a>
+            <a class="dropdown-item active" href="#">Carregadores</a>
+            <a class="dropdown-item active" href="#">Suporte para celular</a>
+            <a class="dropdown-item active" href="#">Cameras de segurança</a>
+            <a class="dropdown-item active" href="#">Ferramentas</a>
+            <a class="dropdown-item active" href="#">Utensilos de cozinha</a>
+            <a class="dropdown-item active" href="#">Outros</a>
+          </div>
+        </li>
         <li class="nav-item"><a href="" class="nav-link">CARRINHO</a></li>
-        <li class="nav-item"><a href="" class="nav-link">CONTATO</a></li>
+        <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
        </ul>
       </div>
     </nav>
-    
+    <article>
+      <section>
+
+      </section>
+    </article>
+    <aside class="border bg-primary w-25 h-25">
+
+      
+
+
 </body>
-<footer><p class="text-center">&copy;2024 - R2 variedades e eletrônicos </p></footer>
+
+<footer><p class="text-center border">&copy;2024 - R2 variedades e eletrônicos </p></footer>
 </html>

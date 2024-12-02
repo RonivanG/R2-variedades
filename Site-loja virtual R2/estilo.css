@@ -13,7 +13,7 @@ input{width:30em ;height:2em;}/*definição de largura e altura*/
 h1{color:rgb(59, 194, 235);text-align:center;}
 
 img{position:relative;top:0;left:0 ;}
-body{background-color: rgba(66, 9, 119, 0.959);}
+body{background-color: rgba(165, 77, 248, 0.959);}
 
 /*ESTILIZAÇÃO DE BARRA DE NAVEGAÇÃO HORIZONTAL*/
 /*nav{border:solid 1px;}
@@ -30,6 +30,8 @@ form{text-align: center;}
       line-height:2px;}
 
 /*MEDIA QUERIES*/
-@media (min-width:576px){body{background-color:rgb(66, 9,119, 0.959);}} /* Tamanho para celulares*/
-@media (max-width:575px){body{background-color:rgb(66, 9,119, 0.959)}} 
+@media (min-width:576px){body{background-color:rgba(152, 74, 224, 0.959);}} /* Tamanho para celulares*/
+@media (max-width:575px){body{background-color:rgba(134, 57, 206, 0.959)}} 
 
+article{background-color: rgba(71, 29, 150, 0.733);}
+section{border:solid 1px red; width:100;height:200px};
