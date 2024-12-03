@@ -8,8 +8,68 @@
     
     <title>Contato loja vritual</title>
 </head>
-<body>
+<header>
+    <div id="Nome" style="clear:both;">
+        <h1>R2 VARIEDADES E ELETRÔNICOS</h1>
+      </div>
+      <div>
+       <img src="imagens/logotipo1.png" alt="R2 Variedades e eletrônicos" width="140" height="155">
+      </div>
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">   <!--TAG PARA NAVEGAÇÃO MENUS-->
+        <!--MENU HAMBURGUER-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target"><!--data-toggler:define uma tecla para ser clicada ,data-target:define o conteúdo a ser aberto no menu -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+         <div class="collapse navbar-collapse" id="nav-target">
+          <ul class="navbar-nav ml-auto"><!--bootstrap:alinhamanto horizontal e icones de menu a esquerda-->
+            <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li><!--bootstrap:formatação de iconesde menu-->
+            <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toglle="dropdown">PRODUTOS</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item active" href="#">Caixa de som</a>
+                <a class="dropdown-item active" href="#">Capinhas de celular</a>
+                <a class="dropdown-item active" href="#">Fones de ouvido</a>
+                <a class="dropdown-item active" href="#">Carregadores</a>
+                <a class="dropdown-item active" href="#">Suporte para celular</a>
+                <a class="dropdown-item active" href="#">Cameras de segurança</a>
+                <a class="dropdown-item active" href="#">Ferramentas</a>
+                <a class="dropdown-item active" href="#">Utensilos de cozinha</a>
+                <a class="dropdown-item active" href="#">Outros</a>
+              </div>
+            </li>
+            <li class="nav-item"><a href="" class="nav-link">CARRINHO</a></li>
+            <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
+           </ul>
+          </div>
+        </nav>
+      
+</header>
+<body class="bg-info">
+    <form>
+        <div class="form-group"> <!--form-grou: serve para dar um esçamento entre as informaçoes-->
+            <label for="usuário">Usuário</label>
+            <input id="my-input" class="form-control" type="text" id="usuário" placeholder="Digite seu nome completo...">
+        </div>
+        <!--FORMULÁRIO DE EMAIL-->
+        <div clas="form-group">
+            <label for="email">Email</label>
+            <input class="form-control" type="email" id="email" placeholder="Digite seu email" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" class="form-control" name="" rows="3"></textarea>
+        </div>
+
+       <!--FORMATAÇÃO DE INPUT--> 
+       <div class="form-group">
+        <label for="arquivo">Arquivo</label>
+        <input id="arquivo" class="form-control-file" type="file" name="Selecionar arquivo">
+       </div>
+
     
+
+        
+    </form>
     
 </body>
 </html>

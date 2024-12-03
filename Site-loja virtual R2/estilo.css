@@ -34,4 +34,6 @@ form{text-align: center;}
 @media (max-width:575px){body{background-color:rgba(134, 57, 206, 0.959)}} 
 
 article{background-color: rgba(71, 29, 150, 0.733);}
-section{border:solid 1px red; width:100;height:200px};
+section{width:100;height:200px}
+
+contrainer {border:solid red 1px ;}

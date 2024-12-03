@@ -13,17 +13,21 @@
     <script src="bootstrap/js/bootstrap.min.js"></script> 
 
    <header> <!--TAG PARA CABEÇALHOS--> 
-     <div id="Nome" style="clear:both;">
-       <h1>R2 VARIEDADES E ELETRÔNICOS</h1>
+     <div id="Nome" style="clear:both">
+       <h1 class="text-center">R2 VARIEDADES E ELETRÔNICOS</h1>
      </div>
      <div>
       <img src="imagens/logotipo1.png" alt="R2 Variedades e eletrônicos" width="140" height="155">
      </div>
 
      <form>
-        <label  class="btn btn-secondary" type="button">Buscar Produto <!--bootstrap:criação de botão com cor de fundo cinza-->
-        </label>
-        <input type="search" id="BUSCAR PRODUTO">
+      <div class="input-group">
+        <input  class="form-control" type="text" placeholder="Pesquisar produto..."><!--bootstrap:criação de botão com cor de fundo cinza-->
+        <div class="input-group-append">
+          <button type="button" class="btn btn-dark">Pesquisar</button>
+
+        </div>
+      </div>  
      </form>
    
    </header>
@@ -34,8 +38,8 @@
     </button>
      <div class="collapse navbar-collapse" id="nav-target">
       <ul class="navbar-nav ml-auto"><!--bootstrap:alinhamanto horizontal e icones de menu a esquerda-->
-        <li class="nav-item"><a href="" class="nav-link">HOME</a></li><!--bootstrap:formatação de iconesde menu-->
-        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-toglle="dropdown">PRODUTOS</a>
+        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li><!--bootstrap:formatação de iconesde menu-->
+        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toglle="dropdown">PRODUTOD</a>
           <div class="dropdown-menu">
             <a class="dropdown-item active" href="#">Caixa de som</a>
             <a class="dropdown-item active" href="#">Capinhas de celular</a>
@@ -54,15 +58,35 @@
       </div>
     </nav>
     <article>
-      <section>
-
-      </section>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/SUPORTE DE CELULAR PARA MOTO.png" class="d-block" width="420" height="350" alt="suporte de moto para celular">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/IMAGEM 001.png" alt="maquininha dragão"  class="d-block" width="420" height="350">
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
     </article>
-    <aside class="border bg-primary w-25 h-25">
-
+    <contrainer class="Produtos">
+      <div>
+        
+      </div>
+    </contrainer>
       
-
-
+  
 </body>
 
 <footer><p class="text-center border">&copy;2024 - R2 variedades e eletrônicos </p></footer>
