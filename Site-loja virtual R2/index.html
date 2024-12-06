@@ -22,7 +22,7 @@
 
      <form>
       <div class="input-group">
-        <input  class="form-control" type="text" placeholder="Pesquisar produto..."><!--bootstrap:criação de botão com cor de fundo cinza-->
+        <input  class="form-control" type="text" placeholder="Pesquisar produto..." ><!--bootstrap:criação de botão com cor de fundo cinza-->
         <div class="input-group-append">
           <button type="button" class="btn btn-dark">Pesquisar</button>
 
@@ -38,20 +38,23 @@
     </button>
      <div class="collapse navbar-collapse" id="nav-target">
       <ul class="navbar-nav ml-auto"><!--bootstrap:alinhamanto horizontal e icones de menu a esquerda-->
-        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li><!--bootstrap:formatação de iconesde menu-->
-        <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toglle="dropdown">PRODUTOD</a>
+        <li class="nav-item"><a href="#" class="nav-link">HOME</a></li><!--bootstrap:formatação de icones de menu-->
+
+        <li class="dropdown">
+          <a href="#">PRODUTOS</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item active" href="#">Caixa de som</a>
-            <a class="dropdown-item active" href="#">Capinhas de celular</a>
-            <a class="dropdown-item active" href="#">Fones de ouvido</a>
-            <a class="dropdown-item active" href="#">Carregadores</a>
-            <a class="dropdown-item active" href="#">Suporte para celular</a>
-            <a class="dropdown-item active" href="#">Cameras de segurança</a>
-            <a class="dropdown-item active" href="#">Ferramentas</a>
-            <a class="dropdown-item active" href="#">Utensilos de cozinha</a>
-            <a class="dropdown-item active" href="#">Outros</a>
+            <a herf="#">Caixa de som</a>
+            <a href="#">Capinhas de celular</a>
+            <a href="#">Fones de ouvido</a>
+            <a href="#">Carregadores</a>
+            <a href="#">Suporte para celular</a>
+            <a href="#">Cameras de segurança</a>
+            <a href="#">Ferramentas</a>
+            <a href="#">Utensilos de cozinha</a>
+            <a href="#">Outros</a>
           </div>
         </li>
+
         <li class="nav-item"><a href="" class="nav-link">CARRINHO</a></li>
         <li class="nav-item"><a href="contato.html" class="nav-link">CONTATO</a></li>
        </ul>
@@ -85,9 +88,12 @@
 
     <!--PAGINAÇÃO-->
      <nav>
-        <ul class="pagination pagination">
+        <ul class="pagination pagination justify-content-center"><!--jusatify-content-center: alinhamento no centro de pagina-->
           <li class="page-item disabled">
-            <a class="page-link" href="#"><span>&laquo;</span></a>
+            <a class="page-link" href="#">
+              <span>&laquo;</span>
+              <span class="sr-only">Anterior</span>
+            </a>
           </li>
           <li class="page-item active">
             <a class="page-link" href="#">1</a>
@@ -96,7 +102,10 @@
             <a class="page-link" href="#">2</a>
           </li>
           <li class="page-item">
-            <a class="page-link" href="#">Proximo</a>
+            <a class="page-link" href="#">
+              <span>&raquo;</span>
+              <span class="sr-only">Próximo</span>
+            </a>
           </li>
         </ul>
       </nav>

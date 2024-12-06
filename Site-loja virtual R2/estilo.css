@@ -1,4 +1,4 @@
-*{margin:1px;padding:1px}
+*{margin:0px;padding:0px}
 header{background-color: rgba(85, 29, 150, 0.904);padding: 10px;}
 
 /*CONFIGURAÇÃO DE FONTE COSTUMIZADA*/
@@ -14,6 +14,7 @@ h1{color:rgb(59, 194, 235);text-align:center;}
 
 img{position:relative;top:0;left:0 ;}
 body{background-color: rgba(165, 77, 248, 0.959);}
+.contato{background-color: rgba(177, 160, 218, 0.959);}
 
 /*ESTILIZAÇÃO DE BARRA DE NAVEGAÇÃO HORIZONTAL*/
 /*nav{border:solid 1px;}
@@ -37,3 +38,10 @@ article{background-color: rgba(71, 29, 150, 0.733);}
 section{width:100;height:200px}
 
 contrainer {border:solid red 1px ;}
+                                                              
+/*DROPDOWN MENU DE PRODUTOS*/
+nav li a{color:rgb(242, 242, 245);text-decoration: none;padding:15px; display:inline-block;}
+nav li a:hover{background-color: rgb(166, 132, 204);text-decoration:none;}
+
+.dropdown-menu {display:none;color:rgb(18, 18, 19);text-align:center;}
+.dropdown:hover .dropdown-menu{display: block;}
