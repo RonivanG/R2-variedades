@@ -25,10 +25,11 @@ nav ul{display: flex; list-style:none}*/
 form{text-align: center;}
 
 /*BLOCO DE CODIGO QUE DEIXA A DIV CENTRALIZADA*/
-#Nome{width:100%;            
-      display:flex;                               
-      justify-content: center;
-      line-height:2px;}
+.Titulo {width:100%; 
+         margin-top:70px;           
+         display:flex;                               
+         justify-content: center;
+         line-height:2px;}
 
 /*MEDIA QUERIES*/
 @media (min-width:576px){body{background-color:rgba(152, 74, 224, 0.959);}} /* Tamanho para celulares*/
@@ -45,3 +46,54 @@ nav li a:hover{background-color: rgb(166, 132, 204);text-decoration:none;}
 
 .dropdown-menu {display:none;color:rgb(18, 18, 19);text-align:center;}
 .dropdown:hover .dropdown-menu{display: block;}
+
+/*SLIDES CARROSSEL*/
+section.slide{
+    margin:0;
+    width:100%;
+    height:auto;
+    padding:0;
+    overflow:hidden ;
+}
+.slide-content{
+    width:400% ;
+    height:auto;
+    display:flex;
+}
+
+.slide-content input{ display:none}
+.silde-box{
+    width:25%;
+    height:auto;
+    position:relative;
+    text-align: center;
+    transition: 1s;}
+
+.nav-manual,.nav-auto{position:absolute;
+            margin-top:30%;
+            width:100%;
+            display:flex;
+            justify-content: center;
+            
+}
+
+.nav-manual .manual-btn,.nav-auto div {border:1px solid rgb(49, 136, 250);
+                        padding:10px;
+                        border-radius:50%;
+                        cursor:pointer;
+                        transition: 0.2s;}
+
+.nav-manual .manual-btn:not(:last-child),.nav-auto div:not(:last-child){margin-right: 10px;}
+.nav-manual .manual-btn:hover{background-color:rgb(49, 136, 250);}
+     
+
+#radio1:checked~ .nav-auto .auto-btn1{background-color:rgb(49, 136, 250) ;}
+#radio2:checked~ .nav-auto .auto-btn2{background-color:rgb(49, 136, 250) ;}
+
+#radio1:checked~ .primeiro{
+    margin-left:0%;
+}
+
+#radio2:checked~ .primeiro{
+    margin-left:-22%;
+}
